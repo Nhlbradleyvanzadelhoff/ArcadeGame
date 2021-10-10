@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Auto1Links.jpg" />
+    <None Remove="Images\Auto1Rechts.jpg" />
+    <None Remove="Images\Auto2Links.jpg" />
+    <None Remove="Images\Auto2Rechts.jpg" />
+    <None Remove="Images\Foto1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Auto1Links.jpg" />
+    <Resource Include="Images\Auto1Rechts.jpg" />
+    <Resource Include="Images\Auto2Links.jpg" />
+    <Resource Include="Images\Auto2Rechts.jpg" />
+    <Resource Include="Images\Foto1.jpg" />
+  </ItemGroup>
+
+</Project>
